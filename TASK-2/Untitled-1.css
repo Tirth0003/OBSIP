@@ -1,0 +1,64 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0PX;
+    padding:0PX;
+    scroll-behavior: smooth;
+}
+nev{
+    display:flex;
+    justify-content:space-BETWEEN;
+    align-items: center;
+    background-color:rgb(34, 156, 160);
+    padding:20px;
+    height:10vh;
+    font-family: 'Rubik', sans-serif;
+}
+ody {
+    background-color: #111;
+    display:GRID;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    }
+    
+    .waviy {
+    position:relative;
+    }
+    .waviy span {
+    position: relative;
+    display:inline-block;
+    font-size: 30px;
+    padding: 5PX;
+    box-sizing: 10PX;
+    color:#FFFACD;
+    text-transform: uppercase;
+    animation: flip 3s infinite;
+    animation-delay: calc(.2s * var(--i))
+    }
+    @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg)
+    }
+  }
+  
+  
+  .nevlink{
+  
+      list-style:NONE;
+  }
+  .nevlink li{
+      display: inline-block;
+  }
+  .nevlink li a{
+      padding: 20px;
+      text-decoration :none;
+      color:rgb(206, 239, 243);
+      font-size:22px;
+  }
+  .nevlink li a:hover{
+      background:black;
+      color:white;
+      border-radius:50px ;
+      
+  }

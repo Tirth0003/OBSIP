@@ -1,0 +1,122 @@
+*{
+    
+    padding:0px;
+    margin: 0PX;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.nev{
+    display:flex;
+    justify-content:space-BETWEEN;
+    align-items: center;
+    background-color:rgb(34, 156, 160);    
+    padding:20px;
+    height:10vh;
+    font-family: 'Rubik', sans-serif;
+    
+} 
+/*
+body {
+  background-color: #111;
+  display:GRID;
+  justify-content: center;
+  align-items:center;
+  min-height: 100vh;
+  }
+*/
+  .waviy {
+  position:relative;
+  }
+  .waviy span {
+  position: relative;
+  display:inline-block;
+  font-size: 30px;
+  padding: 5PX;
+  box-sizing: 10PX;
+  color:#FFFACD;
+  text-transform: uppercase;
+  animation: flip 3s infinite;
+  animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg)
+  }
+}
+
+
+.nevlink{
+
+    list-style:cue-region;
+}
+.nevlink li{
+    display: inline-block;
+}
+.nevlink li a{
+    padding: 20px;
+    text-decoration :none;
+    color:rgb(206, 239, 243);
+    font-size:22px;
+}
+.nevlink li a:hover{
+    background:black;
+    color:white;
+    border-radius:50px ;
+    
+}
+body {
+    background-color: #141114;
+    background-image: linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px),
+      linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  }
+.fg{
+    padding: 10px;
+    display: flex;
+    height:3vh;
+    justify-content:right;
+    align-items:left;
+     background-color: #141114;
+    background-image: linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px),
+      linear-gradient(335deg, black 23px, transparent 23px),
+      linear-gradient(155deg, black 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+    
+}
+.fg a i{
+    position: absolute;
+    top: 10px;
+    transform: translate(-20%,-20%);
+}
+a{
+    height: 20px;
+    width: 20px;
+    background-color:rgb(34, 156, 160);
+     border-radius: 25px;
+    text-align: center;
+    margin: 10px;
+    line-height: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+a i{
+    transition: all 0.3s;
+
+}
+a:hover i{
+    font-size: 30px;
+
+}
+a :hover{
+    color:#ffffff;
+
+}
+.pt{
+    color: wheat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
